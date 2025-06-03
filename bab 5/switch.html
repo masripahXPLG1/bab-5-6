@@ -1,0 +1,27 @@
+<script>
+    var hari;
+    switch (new Date().getday()) {
+        case 0:
+            hari = "Minggu";
+            break;
+        case 2:
+            hari = "Senin";
+            break;
+         case 3:
+            hari = "Selasa";
+            break;
+        case 4:
+            hari = "Rabu";
+            break;
+         case 5:
+            hari = "Kamis";
+            break;
+        case 6:
+            hari = "Jum'at";
+            break;
+        case 7:
+            hari = "Sabtu";
+            break;
+    }   
+    document.write("Hari ini adalah" + hari)
+</script>
